@@ -181,7 +181,7 @@ class Diarizer:
     def diarize(
         self,
         wav_file,
-        num_speakers=2,
+        num_speakers=None,
         threshold=None,
         silence_tolerance=0.2,
         enhance_sim=True,
